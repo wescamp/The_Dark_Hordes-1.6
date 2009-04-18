@@ -1,0 +1,1536 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Battle for Wesnoth 0.8.8-CVS\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2009-04-18 16:47+0200\n"
+"PO-Revision-Date: 2005-03-24 16:43+0300\n"
+"Last-Translator: Mart Tõnso <mart.tonso@ttu.ee>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: The_Dark_Hordes/_main.cfg:14
+msgid "TDH"
+msgstr ""
+
+#. [message]: speaker=narrator
+#. [scenario]: id=08x_Inter
+#: The_Dark_Hordes/_main.cfg:15 The_Dark_Hordes/scenarios/08x_Inter.cfg:5
+#: The_Dark_Hordes/scenarios/08x_Inter.cfg:29
+msgid "The Dark Hordes"
+msgstr ""
+
+#: The_Dark_Hordes/_main.cfg:18
+msgid "(easy)"
+msgstr ""
+
+#: The_Dark_Hordes/_main.cfg:18
+msgid "Apprentice"
+msgstr ""
+
+#: The_Dark_Hordes/_main.cfg:19
+msgid "Master"
+msgstr ""
+
+#: The_Dark_Hordes/_main.cfg:19
+msgid "(normal)"
+msgstr ""
+
+#: The_Dark_Hordes/_main.cfg:20
+msgid "(hard)"
+msgstr ""
+
+#: The_Dark_Hordes/_main.cfg:20
+msgid "Dark Lord"
+msgstr ""
+
+#. [campaign]
+#: The_Dark_Hordes/_main.cfg:27 The_Dark_Hordes/_main.cfg:38
+msgid ""
+"Lead fugitive dark sorcerer Gwiti Ha'atel to mastery of the undead hordes."
+msgstr ""
+
+#. [campaign]
+#: The_Dark_Hordes/_main.cfg:29 The_Dark_Hordes/_main.cfg:40
+msgid "(9 levels completed.)"
+msgstr ""
+
+#. [campaign]
+#: The_Dark_Hordes/_main.cfg:31 The_Dark_Hordes/_main.cfg:42
+msgid "Version:"
+msgstr ""
+
+#. [campaign]
+#: The_Dark_Hordes/_main.cfg:32 The_Dark_Hordes/_main.cfg:43
+msgid "(for Battle for Wesnoth 1.6.x)"
+msgstr ""
+
+#. [campaign]
+#: The_Dark_Hordes/_main.cfg:34
+msgid " Part 1"
+msgstr ""
+
+#. [campaign]
+#: The_Dark_Hordes/_main.cfg:46
+msgid " Part 2"
+msgstr ""
+
+#. [about]
+#: The_Dark_Hordes/about.cfg:4
+msgid "Creator and Original Designer"
+msgstr ""
+
+#. [about]
+#: The_Dark_Hordes/about.cfg:10
+msgid "Campaign Maintenance and Completion"
+msgstr ""
+
+#. [about]
+#: The_Dark_Hordes/about.cfg:25
+msgid "Artwork"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: The_Dark_Hordes/base-utils/_main.cfg:79
+msgid "Hard Hat Area"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: The_Dark_Hordes/base-utils/_main.cfg:86
+msgid ""
+"Note:\n"
+"\n"
+"This campaign is still under construction, and you have reached the last "
+"scenario, which is still work in progress. It may be completed in a future "
+"release, perhaps along with more scenarios. You may usually resume play by "
+"loading from the last start-of-scenario (NOT turn 1!) autosave.\n"
+"\n"
+"All feedback and suggestions on the campaign in its current state may be "
+"posted in the www.wesnoth.org forum thread 'The Dark Hordes' (Scenario and "
+"Campaign dev. forum).\n"
+"\n"
+"-- The authors"
+msgstr ""
+
+#. [scenario]: id=01_A_New_Chance
+#: The_Dark_Hordes/scenarios/01_A_New_Chance.cfg:4
+msgid "A New Chance"
+msgstr "Uus võimalus"
+
+#. [objective]: condition=win
+#: The_Dark_Hordes/scenarios/01_A_New_Chance.cfg:29
+msgid "Clear the land of monsters"
+msgstr "Puhasta maa koletistest"
+
+#. [objective]: condition=lose
+#: The_Dark_Hordes/scenarios/01_A_New_Chance.cfg:33
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:39
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:40
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:35
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:181
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:26
+#: The_Dark_Hordes/scenarios/08_Underground_Pool.cfg:29
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:33
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:34
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:34
+msgid "Death of Gwiti Ha'atel"
+msgstr "Gwiti Ha'ateli surm"
+
+#. [objective]: condition=lose
+#: The_Dark_Hordes/scenarios/01_A_New_Chance.cfg:37
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:43
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:44
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:39
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:185
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:42
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:38
+msgid "Turns run out"
+msgstr "Käigud saavad otsa"
+
+#. [side]: type=Initiate, id=Gwiti Ha'atel
+#. [side]: id=Gwiti Ha'atel, type=Initiate
+#. [side]: type=Demilich, id=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/01_A_New_Chance.cfg:45
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:50
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:52
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:47
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:33
+#: The_Dark_Hordes/scenarios/08_Underground_Pool.cfg:41
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:46
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:50
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:48
+#: The_Dark_Hordes/scenarios/08x_Inter.cfg:10
+msgid "Gwiti Ha'atel"
+msgstr "Gwiti Ha'atel"
+
+#. [side]: type=Ogre, id=Grakarat
+#: The_Dark_Hordes/scenarios/01_A_New_Chance.cfg:59
+msgid "Grakarat"
+msgstr "Grakarat"
+
+#. [unit]: type=Troll, id=Rek Iceheart
+#: The_Dark_Hordes/scenarios/01_A_New_Chance.cfg:74
+msgid "Rek Iceheart"
+msgstr "Rek Jääsüda"
+
+#. [unit]: type=Orcish Grunt, id=Gabtur
+#: The_Dark_Hordes/scenarios/01_A_New_Chance.cfg:82
+msgid "Gabtur"
+msgstr "Gabtur"
+
+#. [message]: speaker=narrator
+#: The_Dark_Hordes/scenarios/01_A_New_Chance.cfg:96
+#, fuzzy
+msgid ""
+"After his banishment from Wesnoth for practicing necromancy, the young Gwiti "
+"Ha'atel arrived on a strange shore. He decided to claim it for his own."
+msgstr ""
+"Peale Wesnothist surnumaagiaga tegelemise eest väljasaatmist jõudis noor "
+"Gwiti Ha'atel võõrale rannale. Ta otsustas selle vallutada. "
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/01_A_New_Chance.cfg:130
+msgid "Noooo! Not now, not when I have escaped!"
+msgstr "Eiiii! Mitte nüüd, kus ma olen põgenenud!"
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/01_A_New_Chance.cfg:144
+msgid "Argh! I die!"
+msgstr "Urr! Ma suren!"
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/01_A_New_Chance.cfg:152
+msgid "The Wesnothians have discovered my escape! This is not good..."
+msgstr "Wesnothlased on mu põgenemise avastanud! See ei tähenda head..."
+
+#. [scenario]: id=02_Brother_Against_Brother
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:7
+msgid "Brother Against Brother"
+msgstr "Vend venna vastu"
+
+#. [objective]: condition=win
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:36
+msgid "Defeat your brother Nati Ha'atel"
+msgstr "Alista oma vend Nati Ha'atel!"
+
+#. [side]: type=Deathmaster, id=Nati Ha'atel
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:66
+msgid "Nati Ha'atel"
+msgstr "Nati Ha'atel"
+
+#. [message]: speaker=narrator
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:86
+msgid ""
+"As the sun set, Gwiti discovered that his arch-rival and brother, Nati, had "
+"already ensconced himself nearby."
+msgstr ""
+"Päikeseloojangul avastas Gwiti, et tema vihavaenlane ja vend, Nati, oli "
+"ennast läheduses sisse seadnud."
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:91
+msgid ""
+"Ah, hated brother mine. Look well upon the setting sun, for you shall not "
+"live to see another in this land."
+msgstr ""
+"Ah, mu vihatud vend. Vaata hoolega loojuvat päikest, kuna sa ei ela enam nii "
+"kaua, et järgmist vaadata sel maal."
+
+#. [message]: speaker=Nati Ha'atel
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:95
+msgid ""
+"This land? Do you truly not know where we are? Then you are a greater fool "
+"than I had thought."
+msgstr ""
+"Sel maal? Kas sa tõesti ei tea kus me oleme? Siis oled sa suurem loll kui ma "
+"arvasin."
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:99
+#, fuzzy
+msgid "Cease your blustering, fool, and prepare to die... again."
+msgstr "Lõpeta hooplemine, narr, ja valmistu surema... jälle."
+
+#. [message]: speaker=Nati Ha'atel
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:103
+msgid ""
+"I will fight you with all my strength to prevent that, and I was always the "
+"stronger of us. Flee now and save your miserable hide before I make it a "
+"carpet."
+msgstr ""
+"Ma võitlen sinu vastu kogu oma jõuga, et seda ära hoida ja ma olen alati "
+"meist kahest tugevaim olnud. Põgene nüüd ja päästa oma nahk, enne kui ma "
+"sellest vaiba teen."
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:107
+msgid ""
+"Don't be silly! I'm not hairy enough to be a carpet! But your scalp would "
+"make a good pillow."
+msgstr ""
+"Naljamees! Ma ei ole piisavalt karvane, et vaibaks olla! Aga sinu peanahast "
+"saaks kobeda padja!"
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:118
+msgid "What? I can't die! I already have! Noooo!"
+msgstr "Misasja? Ma ei saa surra! Ma juba olen surnud! Eiii...!"
+
+#. [message]: speaker=Nati Ha'atel
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:122
+msgid ""
+"Ha ha ha, did I not tell you it would be so? Perhaps I shall summon your "
+"shade to serve me one day. Until then...farewell!"
+msgstr ""
+"Ha ha ha, kas ma mitte ei öelnud, et nii saab olema? Vahest manan ma sinu "
+"varju mind teenima ühel päeval. Aga seniks... Head teed!"
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:126
+msgid "It is over. I am doomed."
+msgstr "Kõik on läbi. Ma olen kadunud."
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:140
+msgid ""
+"I...have failed to win this battle. I am defeated. I will not believe it."
+msgstr ""
+"Ma... ei suutnud seda lahingut võita. Ma olen alistatud. Ma ei suuda seda "
+"uskuda."
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:144
+msgid ""
+"Die, yes, die, and go to the Land of the Dead. Perhaps one day you will be "
+"back under my command!"
+msgstr ""
+"Sure, jah, sure ja mine Surnute Maale. Vahest oled sa ühel päeval jälle minu "
+"käsu all!"
+
+#. [message]: speaker=second_unit
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:159
+msgid "Didn't I tell you so?!"
+msgstr "Mis ma ütlesin?"
+
+#. [message]: speaker=second_unit
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:170
+msgid "And by my own hands you died!"
+msgstr "Ja minu omaenese käe läbi sa surid!"
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:181
+msgid "I am Gwiti the Mighty, prepare to die!"
+msgstr "Mina olen võimas Gwiti, valmistu surema!"
+
+#. [message]: speaker=Nati Ha'atel
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:192
+msgid "Now you shall die!"
+msgstr "Nüüd sa sured!"
+
+#. [message]: speaker=Nati Ha'atel
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:200
+msgid ""
+"You miserable wretch, know that it is only by my mercy that you look upon "
+"the sun again, for you shall die before it sets."
+msgstr ""
+"Sa närune õelusehunnik, tea, et ainult minu halastuse läbi näed sa veel "
+"päikest, sest sa sured enne kui see loojub."
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/02_Brother_Against_Brother.cfg:204
+msgid ""
+"May I remind you that even as we speak, my undead legions are marching "
+"towards you?"
+msgstr ""
+"Kas ma võin sulle meelde tuletada, et samal ajal kui me siin jutustame, "
+"marsivad minu kooljate leegionid sinu poole?"
+
+#. [scenario]: id=03_Skull_of_Morgorath
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:7
+#, fuzzy
+msgid "The Skull of Morgorath"
+msgstr "Agarashi pealuu"
+
+#. [objective]: condition=win
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:30
+#, fuzzy
+msgid "Take the Skull of Morgorath"
+msgstr "Võta Agarashi pealuu"
+
+#. [objective]: condition=lose
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:38
+#, fuzzy
+msgid "Death of Leganoth"
+msgstr "Tanari surm"
+
+#. [side]: type=Orcish Warlord, id=Karz Gholum
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:63
+msgid "Karz Gholum"
+msgstr "Karz Gholum"
+
+#. [side]: type=Orcish Warrior, id=Isidal B'Tai
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:74
+msgid "Isidal B'Tai"
+msgstr "Isidal B'Tai"
+
+#. [side]: type=Orcish Warrior, id=Nakur Kimoni
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:85
+msgid "Nakur Kimoni"
+msgstr "Nakur Kimoni"
+
+#. [message]: speaker=narrator
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:97
+msgid ""
+"After Gwiti destroyed his brother, he planned to march on Wesnoth to gain "
+"his revenge. But a Dark Spirit came to counsel him..."
+msgstr ""
+"Peale oma venna hävitamist plaanis Gwiti liikuda Wesnothi poole, et kätte "
+"maksta. Välja ilmus aga kurjuse vaim, et talle nõu anda..."
+
+#. [unit]: id=Leganoth, type=Dark Spirit
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:109
+msgid "Leganoth"
+msgstr "Leganoth"
+
+#. [message]: speaker=Leganoth
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:120
+#, fuzzy
+msgid "Gwitiii... Gwiti!"
+msgstr "Gwitiii...Gwiti!"
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:124
+msgid "A Dark Spirit? Surely this is a token of my mastery of the undead!"
+msgstr ""
+"Kurjuse vaim? See peab olema küll märk minu meisterlikust surnumanamise "
+"kunstist!"
+
+#. [message]: speaker=Leganoth
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:128
+#, fuzzy
+msgid ""
+"Gwiti, do not yet march in pursuit of your revenge. First, you shall go "
+"south, against the orcs, and there find the Skull of Morgorath."
+msgstr ""
+"Gwiti, ära veel mine kätte maksma. Kõigepealt, liigu lõuna poole, sõdi "
+"mäekollidega. Sealt leiad sa Agarashi pealuu."
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:132
+msgid "Speak on."
+msgstr "Räägi edasi."
+
+#. [message]: speaker=Leganoth
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:136
+#, fuzzy
+msgid ""
+"Do you see the three orc clans of this land? Their banners are topped with "
+"skulls, as is their custom. But one of these is the Skull of Morgorath - "
+"Take it and your power will grow greater by far."
+msgstr ""
+"Kas sa näed selle maa kolme mäekollide klanni? Kombe järgi on nende lippude "
+"otsas on pealuud. Aga üks neist pealuudes kuulub Agarashile - võta see ja "
+"sinu jõud kasvab tohutult."
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:147
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:194
+msgid "What? I can't die! Noooo!"
+msgstr "Mida? Ma ei saa surra! Eiiii!"
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:161
+msgid "You are not worthy of the Skull of Morgorath!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:178
+msgid "Oh, no! The undead hordes have taken my banner!"
+msgstr "Oh ei! Kooljate hordid said mu lipu kätte!"
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:182
+msgid ""
+"It is not your banner, and it never was! That skull has marked it as mine "
+"since long ago."
+msgstr ""
+"See ei ole sinu lipp ja pole seda kunagi olnud! See pealuu märkis selle minu "
+"omaks juba ammu."
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:198
+msgid ""
+"Argh! This is only half of the skull, and near enough to powerless! Begone, "
+"Spirit!"
+msgstr ""
+"Urrr! See on ainult pool pealuud ja peaaegu ilma igasuguse jõuta! Kao vaim!"
+
+#. [message]: speaker=second_unit
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:217
+msgid "Let us trample his banner into the ground! *smash*"
+msgstr "Trambime ta lipu maase! *mürts*"
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:231
+msgid "That skull is powerless!"
+msgstr "Sellel pealuul puudub jõud!"
+
+#. [message]: speaker=Leganoth
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:242
+#, fuzzy
+msgid "That is not the skull of Morgorath!"
+msgstr "See ei ole Agarashi pealuu!"
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/03_Skull_of_Morgorath.cfg:253
+msgid "It's been a long time since I fought anything myself!"
+msgstr "Sellest on juba tükk aega möödas, kui ma ise kellegagi võitlesin!"
+
+#. [scenario]: id=04_Mages_And_Elves
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:7
+msgid "Mages and Elves"
+msgstr "Maagid ja haldjad"
+
+#. [objective]: condition=win
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:31
+#, fuzzy
+msgid "Move Gwiti to the Tower of Sorcery or..."
+msgstr "Vii Gwiti Sortsude Torni"
+
+#. [objective]: condition=win
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:35
+msgid "Kill both enemy leaders"
+msgstr "Alista mõlemad vaenlaste juhid"
+
+#. [side]: type=Great Mage, id=Quirind
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:63
+msgid "Quirind"
+msgstr "Quirind"
+
+#. [side]: type=Elvish Marshal, id=Lessalin
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:88
+msgid "Lessalin"
+msgstr "Lessalin"
+
+#. [message]: speaker=narrator
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:117
+#, fuzzy
+msgid ""
+"After sending the Dark Spirit away for his failure, Gwiti found some maps in "
+"the possession of the orc and realized that he was a short distance north of "
+"Wesnoth. Craving the power that was promised to him, he turned towards the "
+"Tower of Kaleon, where the greatest magi once studied."
+msgstr ""
+"Peale seda, kui Gwiti oli Kurjuse vaimu läbikukkumise pärast minema saatnud, "
+"taipas ta, et oli jõudnud Wesnothi äärealadele ning hakkas liikuma Kaleoni "
+"torni poole, kus kunagi õppisid suurimad maagid."
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:122
+#, fuzzy
+msgid ""
+"At last, I have reached the road. Unless I am far off my course, I should "
+"find the Tower of Kaleon here, filled with the secrets of ancient magi. Soon "
+"they shall all be mine, and my power will be great enough to invade Wesnoth."
+msgstr ""
+"Lõpuks ometi leidsin tee. Kui ma just palju pole eksinud, siis peaksin ma "
+"Kaleoni torni siit leidma. Varsti on kõik iidsete maagide saladused mulle "
+"teada ja minu jõud on piisavalt suur, et Wesnothisse tungida."
+
+#. [message]: speaker=Quirind
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:126
+#, fuzzy
+msgid "A dark sorcerer approaches! Can this be the same one that we banished?"
+msgstr ""
+"Surnumanaja ligineb! Kas see võib olla seesama, kelle me maalt välja ajasime?"
+
+#. [message]: speaker=Quirind
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:130
+#, fuzzy
+msgid ""
+"Accursed and dreadful one, know that we magi, guardians of the Tower of "
+"Kaleon, shall bar your way with all our spells! Flee now and you may survive."
+msgstr "Neetud ja kardetud "
+
+#. [message]: speaker=Lessalin
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:134
+msgid "Quirind, know that you have the Elves at your back."
+msgstr "Quirind, tea et haldjad on sinu poolt."
+
+#. [message]: speaker=Lessalin
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:138
+msgid ""
+"Foul sorcerer of death, go far from this place or we shall send you to your "
+"own realm."
+msgstr ""
+"Kuri surmasorts, kao kaugele sellest kohast või me saadame sind ennast "
+"surnute sekka."
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:142
+msgid "Not born is the one that could challenge me!"
+msgstr "Ei ole veel sündinud seda, kes suudaks mulle vastu astuda!"
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:159
+msgid "No! No! Noooo! It is over, I feel the shades reaching for me..."
+msgstr ""
+"Ei! Ei! Eiiiiiiiii! See on läbi, ma tunnen kuidas varjud minuni jõuavad..."
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:173
+msgid "Argh! I have fallen, and the Tower lies stripped of its defenses!"
+msgstr "Urr! Ma olen langenud ja torn on täiesti kaitsetu!"
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:189
+msgid "Quirind, we have failed! You must guard the tower."
+msgstr "Quirind, me oleme langenud! Sa pead kaitsma torni."
+
+#. [message]: speaker=Quirind
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:199
+msgid ""
+"Ah ha ha ha! The tower's protective spells are now in force, you cannot "
+"enter without mastering a magic equal to it."
+msgstr ""
+"Ah ha ha ha! Torni kaitseloitsud on nüüd töös, sa ei saa siseneda kui sa ei "
+"valda piisava taseme maagiat!"
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:212
+msgid "Haha! I have gained entry to the tower!"
+msgstr "Haha! Ma pääsesin torni sisse!"
+
+#. [message]: speaker=Lessalin
+#: The_Dark_Hordes/scenarios/04_Mages_And_Elves.cfg:216
+#, fuzzy
+msgid "A curse upon that foul dark sorcerer!"
+msgstr "Neetud olgu see räpane surnumanaja!"
+
+#. [scenario]: id=05_Inside_The_Tower
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:5
+msgid "Inside the Tower"
+msgstr "Torni sees"
+
+#. [objective]: condition=win
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:22
+msgid "Find Crelanu's Book"
+msgstr "Otsi üles Crelanu raamat"
+
+#. [unit]: type=Elder Mage, id=Krimitros
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:64
+msgid "Krimitros"
+msgstr ""
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:87
+msgid ""
+"If my memory serves, this tower should have three floors. I should be able "
+"to find the Book in a few hours...!"
+msgstr ""
+"Kui mu mälu mind ei peta, siis peaks sellel tornil olema kolm korrust. Ma "
+"peaks raamatu leidma mõne tunniga...!"
+
+#. [unit]: type=Revenant, id=Xakan
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:96
+msgid "Xakan"
+msgstr "Xakan"
+
+#. [unit]: type=Revenant, id=Karae
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:105
+msgid "Karae"
+msgstr "Karae"
+
+#. [unit]: type=Revenant, id=Pezit
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:114
+msgid "Pezit"
+msgstr "Pezit"
+
+#. [unit]: type=Revenant, id=Lagon
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:123
+msgid "Lagon"
+msgstr "Lagon"
+
+#. [message]: speaker=Karae
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:145
+msgid "Hayaargghh! We have arrived! Command us, Master!"
+msgstr "Urrr! Me oleme saabunud! Juhi meid, isand!"
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:162
+msgid "Here's he second floor! The mages can't hide from us for long!"
+msgstr ""
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:174
+msgid "The third floor! Closer! Find the Book!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:188
+msgid "There's a secret door here! This must be the library."
+msgstr "Siin on salauks! See peab olema raamatukogu."
+
+#. [message]: speaker=Krimitros
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:199
+msgid "I will not allow the likes of you to lay eye upon the Book!"
+msgstr ""
+
+#. [scenario]: id=05_Inside_The_Tower
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:203
+msgid "Well, well, well. Thirty-five pieces of gold were in this chest!"
+msgstr "Nägid siis. Kirstus oli kolmkümmendviis kullatükki!"
+
+#. [scenario]: id=05_Inside_The_Tower
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:204
+msgid "Blast it, the chest is empty!"
+msgstr "Neetud, kirst on tühi!"
+
+#. [scenario]: id=05_Inside_The_Tower
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:205
+msgid "Twenty pieces of gold is a welcome gift."
+msgstr "Kakskümmend kullatükki on teretulnud kingitus."
+
+#. [scenario]: id=05_Inside_The_Tower
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:206
+msgid "I suppose thirty copper coins should not be scorned..."
+msgstr "Ma arvan et ka kolmekümmet vasetükki ei tasu ära põlata..."
+
+#. [scenario]: id=05_Inside_The_Tower
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:207
+msgid ""
+"The chest is empty save for a few trinkets. The magic has gone out of them."
+msgstr ""
+"Kirst oli tühi, välja arvata mõned mõttetud vidinad. Nendes ei sisaldu "
+"mingit maagiat."
+
+#. [scenario]: id=05_Inside_The_Tower
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:208
+msgid "Gack! This chest contains holy water!"
+msgstr "Õuh! Selles kirstus on püha vesi!"
+
+#. [scenario]: id=05_Inside_The_Tower
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:209
+#, fuzzy
+msgid "Look at what the magi were guarding!"
+msgstr "Vaata mida maagid valvasid!"
+
+#. [scenario]: id=05_Inside_The_Tower
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:210
+#, fuzzy
+msgid "Those magi had hidden away more than it seemed!"
+msgstr "Need maagid on rohkem kraami ära peitud, kui oleks võinud arvata!"
+
+#. [scenario]: id=05_Inside_The_Tower
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:211
+msgid "Two dozen gold. Plundering this tower is fun!"
+msgstr "Kaks tosinat kullatükki. Selle torni rüüstamine on täitsa lõbus!"
+
+#. [scenario]: id=05_Inside_The_Tower
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:212
+msgid "A pile of assorted coins is here!"
+msgstr "Siin on üks kuhi igasuguseid münte!"
+
+#. [scenario]: id=05_Inside_The_Tower
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:213
+msgid "Haha, this chest holds scores of gold coins!"
+msgstr "Haha, selles kirstus on igavene hunnik kullatükke!"
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:226
+msgid "Nooo! Not this close to the book!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:240
+msgid "No! The Book must never fall into the hands of a necromancer!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:252
+msgid ""
+"This is not the tome Crelanu wrote...hmmm... but it contains its whereabouts!"
+msgstr ""
+"See ei ole raamat, millest Crelanu kirjutas... Hmmm... aga see sisaldab "
+"selle asukohta!"
+
+#. [message]: speaker=Xakan
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:256
+msgid "We're done in here! Let's go slay some more enemies."
+msgstr "Me oleme siin lõpetanud! Lähme tapame veel vaenlasi."
+
+#. [message]: speaker=narrator
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:284
+msgid "Susanne"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: The_Dark_Hordes/scenarios/05_Inside_The_Tower.cfg:287
+msgid "Congratulations! All your revenants survived."
+msgstr ""
+
+#. [scenario]: id=06_Crelanus_Book
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:5
+msgid "Crelanu's Book"
+msgstr "Crelanu raamat"
+
+#. [objective]: condition=win
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:30
+#, fuzzy
+msgid "Move Gwiti to take the book"
+msgstr "Võta Gwitiga raamat üles"
+
+#. [side]: type=Elvish Hero, id=Urind
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:61
+msgid "Urind"
+msgstr "Urind"
+
+#. [side]: type=Orcish Warrior, id=Nagou
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:77
+msgid "Nagou"
+msgstr "Nagou"
+
+#. [message]: speaker=narrator
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:106
+msgid ""
+"Time marched on, and so did Gwiti. He was nearing the place where the "
+"dreadful tome of Crelanu was hidden."
+msgstr ""
+"Aeg liikus edasi ja seda tegi ka Gwiti. Ta lähenes kohale, kuhu oli peidetud "
+"Crelanu kardetud võluraamat."
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:111
+msgid "I feel that it must be close. Could it be in that swamp?"
+msgstr "Ma tunnen, et see peab olema lähedal. Kas see võiks olla selles soos?"
+
+#. [message]: speaker=narrator
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:115
+#, fuzzy
+msgid ""
+"But the ancient magi had done their job well. The book had been hidden in a "
+"grove over which Elves and Orcs had waged war for many years, and any to "
+"approach would suffer their combined wrath..."
+msgstr ""
+"Aga vanad maagid on oma töö hästi teinud. Raamat oli peidetud hiide, mille "
+"pärast haldjad ja mäekollid olid palju aastaid sõdinud, ning igasugune katse "
+"sellele ligineda oleks tõmmanud enda peale nende mõlema raevu."
+
+#. [message]: speaker=Urind
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:120
+msgid "Oh no. The orcs seem to have recruited the undead to their side."
+msgstr "Oh ei. Paistab et mäekollid on on kooljatega liitu löönud."
+
+#. [message]: speaker=Nagou
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:124
+#, fuzzy
+msgid "Blast it! However did the elves get a dark sorcerer to march with them?"
+msgstr "Neetud! Kuidas suutsid haljad oma ridadesse surnumanaja värvata?"
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:128
+msgid "I side not with either of you!"
+msgstr "Ma ei ole mitte kummagi poolt!"
+
+#. [message]: speaker=Nagou
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:132
+msgid "A truce, then? I fear he will be the death of us both."
+msgstr "Et siis vaherahu? Ma kardan, et sellest saab meie mõlema lõpp."
+
+#. [message]: speaker=Urind
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:136
+msgid ""
+"Very well. We have hated you Orcs for centuries, but the Undead are a danger "
+"to all that live."
+msgstr ""
+"Väga he. Me oleme teid mäekolle küll sajandeid vihanud, aga kooljad on ohuks "
+"kõigele elavale."
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:154
+msgid ""
+"The book is not here, but these swamps contain enough corpses to suit my "
+"purposes."
+msgstr ""
+"Raamatut ei ole küll siin, aga nendes mülgastes on minu eesmärgi täitmiseks "
+"piisavalt laipu."
+
+#. [message]: speaker=narrator
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:181
+msgid "Use ctrl-alt-r to repeat your last recruit."
+msgstr ""
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:208
+msgid "I die a terrible death... not knowing why."
+msgstr "Ma suren kohutavat surma... Isegi teadmatagi miks."
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:219
+#, fuzzy
+msgid "A curse upon that dark sorcerer! Why did he have to come here?!"
+msgstr "Neetud olgu see surnumanaja! Miks ta siia pidi tulema?!"
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:232
+#, fuzzy
+msgid ""
+"At last! This is it! Now I must laugh crazily as a true villain always does!"
+msgstr ""
+"Lõpuks ometi! Ongi käes! Nüüd ma pean hullumeelselt naerma nagu üks õige "
+"pahalane alati peab!"
+
+#. [message]: speaker=Advance Scout
+#: The_Dark_Hordes/scenarios/06_Crelanus_Book.cfg:256
+#, fuzzy
+msgid ""
+"My lord, your suspicions were correct. There is indeed a dark sorcerer in "
+"this part of the country!"
+msgstr ""
+"Mu isand, teie kahtlused olid õiged. Siin maa osas on tõesti surnumanaja "
+"liikvel!"
+
+#. [scenario]: id=07_Confrontation
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:7
+msgid "Confrontation"
+msgstr "Vastasseis"
+
+#. [objective]: condition=win
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:31
+msgid "Slay Leonard"
+msgstr "Tapa Leonard"
+
+#. [side]: type=General, id=Leonard
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:61
+msgid "Leonard"
+msgstr "Leonard"
+
+#. [message]: speaker=narrator
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:101
+msgid ""
+"With the finding of Crelanu's ancient tome, fresh strength had flowed to "
+"Gwiti's army, and they had made good time. However, Gwiti's march was halted "
+"by Leonard as he reentered Wesnothian territory. The general of several "
+"outlying areas, his troops were many but untrained."
+msgstr ""
+"Crelanu iidse raamatu leidmine oli Gwiti armeele andnud uut jõudu ja nad "
+"olid kiiresti edasi liikunud. Gwiti rännaku katkestas peale Wesnothi "
+"territooriumile sisenemist Leonard. Mitme läheduses asuva maa-ala "
+"valitsejana oli tal sõjamehi palju, aga nende ettevalmistus oli nürk."
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:106
+msgid "I see that your puny kingdom marshals its troops at last."
+msgstr "Ma näen, et sinu hädine kuningriik saadab lõpuks oma sõdureid."
+
+#. [message]: speaker=Leonard
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:110
+msgid ""
+"So you are the one responsible for our defeat at the Stone of Erzen. Die!"
+msgstr ""
+"Nii et sina oled siis selles süüdi, et me Erzeni kivi juures kaotasime. Sure!"
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:114
+msgid ""
+"Somehow, I have the feeling it is you who will do the dying today. I wonder "
+"why?"
+msgstr ""
+"Mingil põhjusel on mul tunne, et see oled hoopis sina, kes täna sureb. "
+"Huvitav küll miks?"
+
+#. [message]: speaker=narrator
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:118
+msgid ""
+"In truth, Leonard's army was unprepared and under-equipped, and he had "
+"neglected to send word. Luckily, behind him came one whose name was a bane "
+"to the undead: Lord Aretu. Gwiti knew that even if he defeated Leonard, his "
+"best hope was now to flee into the mountains."
+msgstr ""
+"Tegelikult, Leonardi väed olid ette valmistamata ja ilma õige varustuseta ja "
+"ta oli unustanud sõna saata.Õnneks, tema järel tema järel tuli mees, kelle "
+"nimi oli kooljatele kirstunael: Isand Aretu. Gwiti teadis, et isegi kui ta "
+"Leonardi hävitas, tema parim lootus oli nüüd mägedesse põgeneda."
+
+#. [message]: speaker=Leonard
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:123
+msgid "I shall slay you myself!"
+msgstr "Sinu tapan ma oma kätega!"
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:134
+msgid "So this is death... the cold, black void"
+msgstr "Et selline siis on surm... külm tühjus."
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:148
+msgid "No! This cannot be true! My king, I have failed..."
+msgstr "Ei! See ei saa olla tõsi! Mu kuningas, ma olen kaotanud..."
+
+#. [unit]: type=Paladin, id=Lord Aretu
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:158
+msgid "Lord Aretu"
+msgstr "Isand Aretu"
+
+#. [message]: speaker=Lord Aretu
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:165
+msgid ""
+"Leonard is dead? Oh, what a sad day. Come, men, let us destroy those undead!"
+msgstr ""
+"Leonard on surnud? Milline kurb päev. Mehed, lähme, hävitame need kooljad!"
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:169
+msgid ""
+"Only one way lies open now. I must flee where his horses cannot go: the "
+"sharp peaks and bottomless caves."
+msgstr ""
+"Ainult üks tee on veel avatud. Ma pean põgenema sealt, kuhu tema hobused "
+"minna ei saa: teravate tippude ja põhjatute koobaste kaudu."
+
+#. [objectives]
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:174
+msgid "After the death of Leonard, Gwiti must now achieve a new objective"
+msgstr "Peale Leonardi surma peab Gwiti täitma uue eesmärgi."
+
+#. [objective]: condition=win
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:177
+msgid "Move Gwiti to the end of the mountain pass"
+msgstr "Vii Gwiti mägede pääsu lõppu"
+
+#. [message]: speaker=Lord Aretu
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:201
+msgid "Return to your master, dark fiend!"
+msgstr "Naase oma isanda juurde, kurjuse sõber!"
+
+#. [message]: speaker=Leonard
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:232
+msgid ""
+"Haha, it was a mistake of you to flee there! The pass is blocked, and my "
+"troops will slay you now!"
+msgstr ""
+"Hahaa, oli viga sinna põgeneda! See pääs on suletud ja minu väed tapavad su "
+"nüüd!"
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:238
+msgid "Phew... Surely the puny humans will be too tired to follow me now!"
+msgstr ""
+"Huhh... Kindlasti on need hädised inimesed nüüd liiga väsinud, et mind "
+"jälitada!"
+
+#. [unit]: type=Orcish Warrior, id=Tanar
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:252
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:135
+msgid "Tanar"
+msgstr "Tanar"
+
+#. [message]: speaker=Tanar
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:264
+msgid "Oh, no, escaping dwarves only to be caught by undead."
+msgstr ""
+"Oo ei, põgeneme kääbuste käest ainult selleks,et kooljate kätte sattuda."
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:268
+msgid ""
+"Who are you? If you are a foe of the Dwarves, I might consider you an ally."
+msgstr ""
+"Kes sa oled? Kui sa oled kääbuste vaenlane, siis võin ma sind pidada "
+"liitlaseks."
+
+#. [message]: speaker=Tanar
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:272
+msgid ""
+"I am Tanar, lord of an orcish clan that dwelt here! My people were driven "
+"out by the dwarves. All families count several dead. Please, let us march "
+"with you, for only a chance to strike back at the evil Dwarves!"
+msgstr ""
+"Mina olen Tanar, siin elutsenud mäekollide klanni isand! Minu rahva ajasid "
+"siit minema kääbused. Kõigis peredes on mitu surnut. Palun, lase meil koos "
+"teiega rännata, kasvõi ainult lootuses kurjadele kääbustele kätte maksta!"
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:276
+msgid ""
+"Gladly. I do get so lonely talking to myself, and none of my minions are "
+"worth talking to."
+msgstr ""
+"Hea meelega. Iseendaga rääkimine muutubki juba tüütuks ja minu alamad ei ole "
+"just head vestluskaaslased."
+
+#. [message]: speaker=Tanar
+#: The_Dark_Hordes/scenarios/07_Confrontation.cfg:280
+msgid ""
+"Thank you, my new Lord! Never had I thought I would see the day when my "
+"people were glad to march alongside skeletons and ghosts."
+msgstr ""
+"Tänan sind, mu uus isand! Mitte kunag ei oleks ma osanud oodata päeva, kus "
+"minu inimesed rõõmuga marsivad koos kooljate ja luukeredega."
+
+#. [scenario]: id=08_Underground_Pool
+#: The_Dark_Hordes/scenarios/08_Underground_Pool.cfg:5
+msgid "Underground Pool"
+msgstr "Maa-alune bassein"
+
+#. [objective]: condition=win
+#: The_Dark_Hordes/scenarios/08_Underground_Pool.cfg:25
+msgid "Move Gwiti or Tanar into the water"
+msgstr "Vii Gwiti või Tanar vette"
+
+#. [objective]: condition=lose
+#: The_Dark_Hordes/scenarios/08_Underground_Pool.cfg:33
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:37
+msgid "Death of Tanar"
+msgstr "Tanari surm"
+
+#. [side]: id=Peluthlos, type=Dwarvish Berserker
+#: The_Dark_Hordes/scenarios/08_Underground_Pool.cfg:54
+msgid "Peluthlos"
+msgstr ""
+
+#. [side]: id=Geldar, type=Dwarvish Lord
+#: The_Dark_Hordes/scenarios/08_Underground_Pool.cfg:75
+msgid "Geldar"
+msgstr "Geldar"
+
+#. [message]: speaker=Tanar
+#: The_Dark_Hordes/scenarios/08_Underground_Pool.cfg:109
+msgid ""
+"We have come to a flooded part of the cave. If we forge ahead, the Dwarves "
+"should be delayed quite a bit."
+msgstr ""
+"Me oleme jõudnud üleujutatud koopaosasse. Kui me edasi rühime, siis peaksid "
+"kääbused jupp maad maha jääma."
+
+#. [message]: speaker=Tanar
+#: The_Dark_Hordes/scenarios/08_Underground_Pool.cfg:116
+msgid "ARGH! What was that?"
+msgstr "Urrr! Mis see oli?"
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/08_Underground_Pool.cfg:120
+msgid ""
+"I do not know. I guess, however, that some magic is at work in these "
+"caverns. Can you tell me anything of them?"
+msgstr ""
+"Ma ei tea. Ma arvan, et nendes koobastes töötab mingisugune maagia. Kas sa "
+"oskad mulle neist midagi rääkida?"
+
+#. [message]: speaker=Tanar
+#: The_Dark_Hordes/scenarios/08_Underground_Pool.cfg:124
+msgid ""
+"Nay, Lord. These passages were flooded higher last time I was here. The "
+"Dwarves did not delve here, and we shunned the nameless dread we felt."
+msgstr ""
+"Ei, isand. Need käigud olid üle ujutatud, kui ma viimati siin käisin. "
+"Kääbused siin ei elanud ja meie pagesime nimetu hirmu eest, mida me tundsime."
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/08_Underground_Pool.cfg:128
+msgid "If there is anything to dread here, it is me. Now, onward!"
+msgstr "Kui siin on üldse midagi hirmsat, siis olen see mina. Nüüd, edasi!"
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/08_Underground_Pool.cfg:136
+msgid "The Dwarves are still in these caves!"
+msgstr "Kääbused on ikka veel nendes koobastes!"
+
+#. [message]: speaker=Tanar
+#: The_Dark_Hordes/scenarios/08_Underground_Pool.cfg:140
+msgid "Aye! They drove us out, and left a guard here to occupy us."
+msgstr ""
+"Ajee! Nad ajasid meid välja ja jätsid vahimehed maga, et meile tegevust anda."
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/08_Underground_Pool.cfg:144
+msgid ""
+"Then we shall slay them. I have never had Dwarves rise to join my ranks. He, "
+"he, he, he..."
+msgstr ""
+"Siis me tapame nad. Minu ridadesse polegi enne kääbuseid sattunud. He, he, "
+"he, he..."
+
+#. [message]: speaker=Tanar
+#: The_Dark_Hordes/scenarios/08_Underground_Pool.cfg:181
+#, fuzzy
+msgid "The Hoard of the Dwarves! Three hundred pieces of gold at least!"
+msgstr "Kääbuste aare! Vähemalt kolmsada kullatükki!"
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/08_Underground_Pool.cfg:199
+msgid "You swore you would protect me!"
+msgstr "Sa lubasid mind kaitsta!"
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/08_Underground_Pool.cfg:213
+msgid "I feel the darkness pulling me back..."
+msgstr ""
+
+#. [option]: speaker=narrator
+#: The_Dark_Hordes/scenarios/08x_Inter.cfg:32
+msgid "Continue playing to Part 2"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: The_Dark_Hordes/scenarios/08x_Inter.cfg:43
+msgid "End the game"
+msgstr ""
+
+#. [scenario]: id=09_Underground_River
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:6
+#, fuzzy
+msgid "Underground River"
+msgstr "Maa-alune bassein"
+
+#. [objective]: condition=win
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:25
+msgid "Get to safety and..."
+msgstr ""
+
+#. [objective]: condition=win
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:29
+msgid "...Kill all who stand in your way"
+msgstr ""
+
+#. [objectives]
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:39
+msgid "`Your castle will sink at the start of turn 4."
+msgstr ""
+
+#. [side]: id=Ainarthol, type=Dwarvish Lord
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:59
+msgid "Ainarthol"
+msgstr ""
+
+#. [side]: id=Xoloss, type=Naga Myrmidon
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:89
+msgid "Xoloss"
+msgstr ""
+
+#. [message]: speaker=Tanar
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:159
+msgid ""
+"The water is rising behind us, it seems to be going back to its normal level."
+msgstr ""
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:163
+msgid ""
+"That should keep the dwarves and humans away. Let's see what else these "
+"caves contain."
+msgstr ""
+
+#. [message]: speaker=Tanar
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:177
+msgid "Our castle has sunk!"
+msgstr ""
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:181
+msgid ""
+"Maybe the midgets were running from the water... no matter, we can only move "
+"forward."
+msgstr ""
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:197
+msgid ""
+"The water will not flood past this chasm, get across and clear out the "
+"dwarves!"
+msgstr ""
+
+#. [message]: speaker=Tanar
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:201
+msgid "Aye! Kill the dwarves!"
+msgstr ""
+
+#. [message]: speaker=Tanar
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:231
+msgid "We have cleared the area, Lord."
+msgstr ""
+
+#. [message]: speaker=Gwiti Ha'atel
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:237
+msgid ""
+"Block the entrances. We will be safe here for a while.\n"
+"\n"
+"Now I have to study the book."
+msgstr ""
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:339
+msgid "My clan will avenge this betrayal!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:358
+msgid "Curse you dwarves! Curse you nagas! You will all die in this cave!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: The_Dark_Hordes/scenarios/09_Underground_River.cfg:364
+msgid ""
+"With the power of the book, Gwiti collapsed the cave and brought down part "
+"of the mountain. Even some of the pursuing paladins were caught in the "
+"rubble."
+msgstr ""
+
+#. [unit_type]: id=Dark Spirit, race=undead
+#: The_Dark_Hordes/units/Dark_Spirit.cfg:4
+msgid "Dark Spirit"
+msgstr ""
+
+#. [unit_type]: id=Dark Spirit, race=undead
+#: The_Dark_Hordes/units/Dark_Spirit.cfg:18
+msgid ""
+"Dark Spirits are messengers and bearers of tidings from the realm of the "
+"dead, and a force of dread in this world. Luckily, they have rarely been "
+"seen in Wesnoth."
+msgstr ""
+
+#. [attack]: type=arcane
+#: The_Dark_Hordes/units/Dark_Spirit.cfg:35
+msgid "baneblade"
+msgstr ""
+
+#. [attack]: type=cold
+#: The_Dark_Hordes/units/Dark_Spirit.cfg:47
+msgid "wail"
+msgstr "ulgumine"
+
+#. [unit_type]: id=Deathmaster, race=undead
+#: The_Dark_Hordes/units/Deathmaster.cfg:4
+msgid "Deathmaster"
+msgstr ""
+
+#. [unit_type]: id=Deathmaster, race=undead
+#: The_Dark_Hordes/units/Deathmaster.cfg:19
+msgid ""
+"His wanderings on a dark path have given him power normally not granted to "
+"mortals, but with a terrible cost: the undead that he gave his soul to are "
+"gradually claiming his mortal shell too, and with time, he will be a true "
+"undead and a terror to all that lives."
+msgstr ""
+
+#. [attack]: type=impact
+#: The_Dark_Hordes/units/Deathmaster.cfg:25
+msgid "staff"
+msgstr "sau"
+
+#. [attack]: type=cold
+#: The_Dark_Hordes/units/Deathmaster.cfg:34
+#: The_Dark_Hordes/units/Initiate.cfg:24
+msgid "chill wave"
+msgstr ""
+
+#. [attack]: type=arcane
+#: The_Dark_Hordes/units/Demilich.cfg:55
+#: The_Dark_Hordes/units/Deathmaster.cfg:46
+#: The_Dark_Hordes/units/Initiate.cfg:36
+#: The_Dark_Hordes/units/Dread_Lich.cfg:56
+msgid "shadow wave"
+msgstr ""
+
+#. [unit_type]: id=Demilich, race=undead
+#: The_Dark_Hordes/units/Demilich.cfg:4
+msgid "Demilich"
+msgstr ""
+
+#. [unit_type]: id=Demilich, race=undead
+#: The_Dark_Hordes/units/Demilich.cfg:25
+msgid ""
+"After too much time dabbling with forbidden magics and dark arts, these magi "
+"have begun to pay a heavy price. Demiliches have started losing their "
+"bodies, becoming undead themselves. With time, they may become fully undead, "
+"and feared by all alike."
+msgstr ""
+
+#. [attack]: type=arcane
+#: The_Dark_Hordes/units/Demilich.cfg:31
+#: The_Dark_Hordes/units/Dread_Lich.cfg:32
+msgid "touch"
+msgstr "puudutus"
+
+#. [attack]: type=cold
+#: The_Dark_Hordes/units/Demilich.cfg:43
+#: The_Dark_Hordes/units/Dread_Lich.cfg:44
+msgid "chill tempest"
+msgstr ""
+
+#. [unit_type]: id=Dread Lich, race=undead
+#: The_Dark_Hordes/units/Dread_Lich.cfg:4
+msgid "Dread Lich"
+msgstr ""
+
+#. [unit_type]: id=Dread Lich, race=undead
+#: The_Dark_Hordes/units/Dread_Lich.cfg:26
+msgid ""
+"At long last, Ha'atel has paid the ultimate sacrifice for the dark arts into "
+"which he has delved, and has, himself, entered into undeath. At the apex of "
+"his power, he has become a lich, a waking embodiment of dread. He has, "
+"beyond any doubt, passed the point of no return, and his power and "
+"immortality will have to provide consolation for what he has lost in his "
+"quest to achieve them."
+msgstr ""
+
+#. [unit_type]: id=Initiate, race=undead
+#: The_Dark_Hordes/units/Initiate.cfg:4
+msgid "Initiate"
+msgstr ""
+
+#. [unit_type]: id=Initiate, race=undead
+#: The_Dark_Hordes/units/Initiate.cfg:18
+msgid ""
+"Dabbling in the Death Magic, this young Ha'atel's lust for power has "
+"weakened him to the point where he is too weak to attack in regular combat."
+msgstr ""
+
+#. [object]: id={ID}
+#: The_Dark_Hordes/utils/items.cfg:29
+msgid "Ice Potion"
+msgstr "Jää võlujook"
+
+#. [object]: id={ID}
+#: The_Dark_Hordes/utils/items.cfg:32
+msgid ""
+"This potion contains a strange fluid designed to imbue a weapon with the "
+"power of cold."
+msgstr ""
+"See võlujook sisaldab veidrat vedelikku, mis peaks relvale andma külma jõu."
+
+#. [object]: id={ID}
+#: The_Dark_Hordes/utils/items.cfg:33
+msgid "Only a skeletal unit may acquire this dreaded power!"
+msgstr ""
+
+#. [part]
+#: The_Dark_Hordes/utils/storytxt.cfg:8
+msgid ""
+"At a great battle at the Stone of Erzen, the brothers Gwiti and Nati Ha'atel "
+"showed their skills for the first time: Thinking that their side was losing "
+"the battle, they called upon the corpses of former enemies to rise again and "
+"fight on their side."
+msgstr ""
+"Suures lahingus Erzeni kivi juures näitasid vennad Gwiti ja Nati Ha'atel "
+"esimest korda oma võimeid: arvates, et nende pool kaotab lahingu äratasid "
+"nad vastaste laibad ellu, et need nende poolel võitleksid."
+
+#. [part]
+#: The_Dark_Hordes/utils/storytxt.cfg:17
+#, fuzzy
+msgid ""
+"However, not only was this forbidden, but rash as well. The cavalry meant to "
+"come as reinforcements instead clashed with the undead legions, and so the "
+"battle was lost where it would have been won had it not been for these two "
+"dark sorcerers."
+msgstr ""
+"See aga ei olnud mitte ainult keelatud vaid ka enneaegne. Appi tõtanud "
+"ratsavägi põrkas kokku hoopis surnute leegioniga ja lahing, mis muidu oleks "
+"võidetud, kaotati tänu nendele kahele surnumanajale."
+
+#. [part]
+#: The_Dark_Hordes/utils/storytxt.cfg:26
+msgid ""
+"The Ha'atel brothers fled. Immediately upon their return, they were clapped "
+"in irons, marched onto a ship with no rudder, and sent off to drown in the "
+"sea, for the Wesnothians feared that their corpses might only rise again."
+msgstr ""
+"Ha'ateli vennad põgenesid. Kohe, kui nad välja ilmusid, pandi nad ahelatesse "
+"ja saadeti ilma tüürita laevas merele uppuma, sest Wesnothlased kartsid, et "
+"nende laibad võiksid uuesti ellu ärgata."
+
+#. [part]
+#: The_Dark_Hordes/utils/storytxt.cfg:35
+msgid ""
+"But Fate intervened. The ship was beset by a sudden storm and disintegrated, "
+"separating the brothers and washing them both ashore. This was the beginning "
+"of the Rise of the Dark Hordes."
+msgstr ""
+"Aga saatus segas vahele. Laeva hävitas torm, mis lahutas vennad ja heitis "
+"nad mõlemad kaldale. Sellest sai alguse pimeduse hordide tõus."
+
+#. [part]
+#: The_Dark_Hordes/utils/storytxt.cfg:51
+msgid "Trying to find where he was, Gwiti ran into his brother."
+msgstr ""
+
+#. [part]
+#: The_Dark_Hordes/utils/storytxt.cfg:60
+#, fuzzy
+msgid "Still wandering the unknown land, Gwiti entered lands of the Orcs."
+msgstr "Ikka Wesnothist põgenedes satub Gwiti mäekollide maadele."
+
+#. [part]
+#: The_Dark_Hordes/utils/storytxt.cfg:64
+msgid ""
+"They all bore skull-topped banners. But one of these skulls was special..."
+msgstr ""
+
+#. [part]
+#: The_Dark_Hordes/utils/storytxt.cfg:77
+msgid ""
+"Furious at Skull's lack of power, Gwiti decided to seize a different "
+"artifact, the Book of Crelanu."
+msgstr ""
+
+#. [part]
+#: The_Dark_Hordes/utils/storytxt.cfg:86
+msgid ""
+"According to the journal Gwiti recovered, after the death of Delfador the "
+"Great, the tradition was started to entrust the Book with the King's closest "
+"advisor."
+msgstr ""
+
+#. [part]
+#: The_Dark_Hordes/utils/storytxt.cfg:89
+msgid ""
+"This turned out to be a costly mistake, sparking the greatest undead "
+"invasion Wesnoth had ever seen."
+msgstr ""
+
+#. [part]
+#: The_Dark_Hordes/utils/storytxt.cfg:93
+msgid ""
+"After this, no mage dared take guardianship of the Book.\n"
+"Instead, they decided to hide Crelanu's work where none would find it, while "
+"spreading rumors that it was guarded in the Tower of Kaleon."
+msgstr ""
+
+#. [part]
+#: The_Dark_Hordes/utils/storytxt.cfg:96
+msgid ""
+"Five centuries later, Gwiti retraced their steps, which led him to a war-"
+"torn valley."
+msgstr ""
+
+#. [part]
+#: The_Dark_Hordes/utils/storytxt.cfg:113
+msgid ""
+"Gwiti and Tanar rushed into the maze of twisting little passages, quickly "
+"leaving the humans behind. But not much later, they ran into dwarves..."
+msgstr ""
+
+#. [part]
+#: The_Dark_Hordes/utils/storytxt.cfg:124
+msgid ""
+"Crossing the pool did not take long and soon the orcs and undead marched on "
+"through the damp cave, into the mountain.\n"
+"\n"
+"While the orcs shivered in the magical air, Gwiti spent some time reading "
+"the Tome."
+msgstr ""
+
+#~ msgid "blade"
+#~ msgstr "mõõk"
+
+#~ msgid "cold"
+#~ msgstr "külm"
+
+#~ msgid "impact"
+#~ msgstr "löök"
+
+#~ msgid "magical"
+#~ msgstr "maagiline"
